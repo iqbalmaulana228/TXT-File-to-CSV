@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TXT to CSV Converter | Komatsu Style</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="document-center-logo">
+                <span class="document-center-text">DOCUMENT CENTER</span>
+                <div class="komatsu-accent-line"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <header>
+            <div class="header-accent"></div>
+            <h1><i class="fas fa-file-csv"></i> TXT to CSV Converter</h1>
+            <p class="subtitle">Transform your text data into structured CSV format</p>
+        </header>
+
+        <div class="converter-container">
+            <div class="converter-accent"></div>
+            <div id="drop-area">
+                <div class="upload-icon">
+                    <i class="fas fa-file-upload"></i>
+                </div>
+                <form id="upload-form">
+                    <input type="file" id="fileElem" accept=".txt" hidden>
+                    <label class="button" for="fileElem">
+                        <i class="fas fa-folder-open"></i> Select TXT File
+                    </label>
+                    <p class="drag-text">or drag and drop your file here</p>
+                </form>
+            </div>
+
+            <div class="action-buttons">
+                <button id="convert-btn" disabled>
+                    <i class="fas fa-exchange-alt"></i> Convert to CSV
+                </button>
+                <a id="download-link" class="download-btn">
+                    <i class="fas fa-download"></i> Download CSV
+                </a>
+            </div>
+        </div>
+
+        <div id="message"></div>
+
+        <footer>
+            <div class="footer-accent"></div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/iqbalmaulana28_/"><i class="fab fa-instagram"></i> @iqbalmaulana28_</a>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/iqbalmaulana228">DC_App</a>
+                <div class="komatsu-tagline">Creating value together</div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

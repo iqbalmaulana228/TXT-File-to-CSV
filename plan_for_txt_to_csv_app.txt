@@ -1,0 +1,47 @@
+Information Gathered:
+- User wants an online app to convert TXT files to CSV with AI-based capabilities.
+- Frontend: HTML, CSS, JavaScript with drag-and-drop, file upload, download, and clear instructions.
+- Backend: PHP to handle file upload, conversion logic, file deletion, and security.
+- Conversion logic must handle different TXT formats (varied delimiters, multiline data).
+- Security: auto-delete uploaded files after conversion, clear privacy info.
+- Scalability: design to allow adding other file formats in future.
+- Optional: cloud storage integration (Google Drive, Dropbox) - can be planned for later.
+
+Plan:
+1. Frontend:
+   - index.html: main UI with file upload input, drag-and-drop area, instructions, and download button.
+   - styles.css: clean, minimal styling for UI.
+   - script.js: handle file upload, drag-and-drop, send file to backend via AJAX, receive converted CSV, trigger download.
+   - Include clear textual/visual instructions and info about TXT vs CSV.
+
+2. Backend:
+   - upload.php: handle file upload securely, validate file type and size.
+   - convert.php: process uploaded TXT file, parse content with flexible delimiter detection, convert to CSV format.
+   - delete.php or integrated cleanup: delete uploaded files after conversion or after a short time.
+   - Return CSV file for download.
+
+3. Security & Privacy:
+   - Limit file size.
+   - Validate file types.
+   - Auto-delete files after processing.
+   - Display privacy policy info on frontend.
+
+4. Extensibility:
+   - Design backend conversion logic modularly to add other formats later.
+   - Frontend UI designed to allow adding more file format options.
+
+Dependent Files to be created:
+- index.html
+- styles.css
+- script.js
+- upload.php
+- convert.php
+- (optional) cleanup.php or integrated cleanup logic
+
+Follow-up Steps:
+- Implement frontend and backend files.
+- Test file upload, conversion, download, and security features.
+- Optionally add cloud storage integration later.
+- Deploy on a PHP-capable web server.
+
+Please confirm if I can proceed with this plan or if you want any modifications.
