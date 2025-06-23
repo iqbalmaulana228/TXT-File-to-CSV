@@ -1,9 +1,8 @@
 # Konverter TXT ke CSV
 
-![DOCUMENT CENTER](DOCUMENT CENTER.png)
-
 Ini adalah aplikasi web yang memungkinkan pengguna mengunggah file TXT dan mengonversinya ke format CSV. Aplikasi ini memiliki antarmuka pengguna frontend yang sederhana dan bersih serta backend PHP yang menangani unggahan file, konversi, dan pengunduhan.
 
+>>>>> dctxtcsv.infy.uk <<<<<
 ## Fitur
 
 - Unggah file TXT melalui input file atau drag-and-drop
@@ -53,8 +52,4 @@ Proyek ini bersifat open source dan tersedia di bawah Lisensi MIT.
 
 ## Penulis
 
-Dikembangkan oleh [Nama Anda].
-
-## Kontak
-
-Untuk pertanyaan atau dukungan, silakan hubungi [Email Anda].
+Dikembangkan oleh @iqbalmaulana28_.
